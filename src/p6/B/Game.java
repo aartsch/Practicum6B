@@ -28,6 +28,9 @@ public class Game {
         }
         return gelijkeObjecten;
     }
+    public int getReleaseJaar() {
+        return releaseJaar;
+    }
 
     public String toString()    {
         String s = naam + ",uitgegeven in " + releaseJaar + "; nieuwprijs: $" + String.format("%.2f", nieuwprijs) + " nu voor: $" + String.format("%.2f", huidigeWaarde()) + "\n" ;
